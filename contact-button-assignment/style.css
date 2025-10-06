@@ -1,0 +1,36 @@
+/*
+MY COLOR PALETTE
+Cadet gray - #9CAFB7
+Fire brick - #AB3428
+Raisin black - #272932
+Persian orange - #DC965A
+Rufous - #A33B20
+*/
+
+body {
+    background-color: #272932;
+    color: #9cafb7;
+    text-align: center;
+}
+
+button {
+    background-color: #ab3428;
+    color: #9cafb7;
+    width: 200px;
+    padding: 10px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 200px;
+}
+button:hover {
+    background-color: #dc965a;
+    color: #272932;
+}
+
+h1 {
+    font-family: "Meie Script", cursive;
+}
+
+h2 {
+    font-family: "Meie Script", cursive;
+}
