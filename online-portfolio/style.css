@@ -1,0 +1,30 @@
+@media {
+    img {
+        width: 100%;
+    }
+
+    h1 {
+    }
+
+    h2 {
+    }
+
+    button {
+    }
+}
+
+@media (min-width: 576px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    img {
+        width: 400%;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 120px;
+    }
+}
