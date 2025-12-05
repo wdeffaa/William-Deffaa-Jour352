@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>[YOUR NAME]'s Data Story</title>
+
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous" />
+    </head>
+
+    <body>
+        <div id="article">
+            <h1>KenPom v. AP Poll: Anayltics v. Voting</h1>
+
+            <h3 id="byline">By William Deffaa</h3>
+
+            <h4 id="date">November 11, 2025</h4>
+
+            <p>
+                As one of the toughest parts of the college basketball season begins, with top teams facing off agianst
+                each other in invitational tournements and marquee matchups take center stage.
+            </p>
+
+            <p>In college basketball, two ranking systems reign supreme.</p>
+
+            <h3 id="kenpom">KenPom Rankings</h3>
+
+            <p>
+                KenPom, which dives into the analytics of college basketball and ranks teams overall based on adjusted
+                efficeincy margin, determined when subtracting offensive efficiency by defensive efficiency. The
+                resulting number shows the number of points a team would outscore an 'average' team by.
+            </p>
+
+            <img src="kenpom.png" width="225" />
+
+            <p>
+                For example, in the image above, we see that Michigan is leading the KenPom rankings due to a +35.08 Net
+                Rating, meaning they should be outscoring an 'average' team by around 38 points.
+            </p>
+
+            <h3 id="appoll">AP Poll Top 25</h3>
+
+            <p>
+                The other major ranking system, and the one that is more widely associated with college basketball
+                rankings is the Associated Press (AP) Poll. This poll is based on votes by a committee at the Associated
+                Press that ranks the top 25 college basketball teams in the nation. Each vote toward a team counts
+                toward a certian amount of points, for example, a 1st place vote is equal to 25 points and so on down
+                from 1-25.
+            </p>
+
+            <img src="ap_poll_25.png" width="500" />
+
+            <p>
+                Here we see that Purdue is ranked No. 1, with 1494 points, which is all of the points per-rank where all
+                62 votes ranked Purdue.
+            </p>
+
+            <p>
+                The number in parentheses next to the total number is the number of first place votes gien to that
+                school. In Purdue's case, they received 40 first place votes.
+            </p>
+
+            <h3 id="correlation">Correlation Between KenPom and AP Poll?</h3>
+
+            <p>
+                Even with the AP Poll and KenPom having vastly different methods to ranking college basketball teams,
+                with AP Poll being more of an 'eye-test' ranking and KenPom being strictly data-driven, this begs the
+                question: Is there a correlation between where KenPom ranks teams and where the AP Poll ranks them?
+            </p>
+
+            <div class="flourish-embed flourish-scatter" data-src="visualisation/26612409">
+                <script src="https://public.flourish.studio/resources/embed.js"></script>
+                <noscript
+                    ><img
+                        src="https://public.flourish.studio/visualisation/26612409/thumbnail"
+                        width="100%"
+                        alt="scatter visualization"
+                /></noscript>
+            </div>
+
+            <p>
+                From the graphic, we can see that for most of the teams that are ranked in the top 15 in KenPom
+                rankings, they are closely correlated with their respective AP Poll ranks in the Top 25, with only a few
+                slight outliers like Gonzaga, Arizona and Vanderbilt existing.
+            </p>
+
+            <h3 id="accuracy">Which is More Accurate?</h3>
+
+            <p>
+                With anything that involves ranking something, accuracy may be brought into the question. In the case of
+                KenPom v. AP Poll, both sites offer pre-season rankings before the gueling season begins and at the end
+                ranks the teams once again.
+            </p>
+
+            <div class="flourish-embed flourish-chart" data-src="visualisation/26642796">
+                <script src="https://public.flourish.studio/resources/embed.js"></script>
+                <noscript
+                    ><img
+                        src="https://public.flourish.studio/visualisation/26642796/thumbnail"
+                        width="100%"
+                        alt="chart visualization"
+                /></noscript>
+            </div>
+
+            <p>
+                When looking at the 2024-2025 college basketball season, both systems's pre-season rankings did not age
+                well. However, KenPom is less far off on its pre-season ranking and the final ranking result compared to
+                AP Poll.
+            </p>
+
+            <h3 id="conclusion">Conclusion</h3>
+
+            <p>
+                Overall, the way you look at college basketball, whether from an anayltical perspective of the 'eye
+                test' is completely subjective and is entirely up to fandom. Yet, when it comes to the in-depth, KenPom
+                is the way to go.
+            </p>
+        </div>
+    </body>
+</html>
